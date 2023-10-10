@@ -1,10 +1,10 @@
-// Basic tests for integer-range.hpp. Generated 300.000 values and catches inexpected behavior
+// Basic tests for integer-range.hpp. Generates 300.000 values and catches inexpected behavior
 
 #include <iostream>
 #include <stdexcept>
 #include <set>
 
-#include "integer-range.hpp"
+#include "../include/integer-range.hpp"
 
 
 int main() {
