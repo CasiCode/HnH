@@ -5,7 +5,7 @@
 #include <string>
 #include <set>
 
-#include "dice.hpp"
+#include "../include/dice.hpp"
 
 int main() {
     int temp;
