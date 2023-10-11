@@ -7,10 +7,6 @@
 #include "../include/dice.hpp"
 #include "../include/fight.hpp"
 
-/*
-    TO-DO:
-    Player damage is not in wanted bounds
-*/
 
 void Fight::makePlayerMoves() {
     for (auto& id : this->m_playerIDs) {
