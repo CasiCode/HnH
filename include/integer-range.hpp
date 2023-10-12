@@ -40,6 +40,5 @@ class IntegerRange {
         void setValues(int lowValue, int highValue) {
             this->m_low = std::move(lowValue);
             this->m_high = std::move(highValue);
-            if (this->m_low > this->m_high) { this->sort(); }
         }
 };
